@@ -25,7 +25,7 @@ const passport = require("passport");
 // connect to the database.
 connectDB();
 
-app.use(cors({ origin: ["chuly-react-app-steve.vercel.app", "http://localhost:5173" ], credentials: true }));
+app.use(cors({ origin: ["https://chuly-react-app-steve.vercel.app", "http://localhost:5173" ], credentials: true }));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
